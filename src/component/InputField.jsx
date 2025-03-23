@@ -30,7 +30,7 @@ const InputField = forwardRef(({
       />
       <label
         htmlFor={id}
-        className="absolute -top-2.5 left-3 bg-[#F7F8F9] px-1 text-[#6C25FF] text-sm font-bold"
+        className="absolute -top-2.5 left-3 bg-[#F7F8F9] px-1 text-[#6C25FF] text-sm font-medium"
       >
         {label}
       </label>
