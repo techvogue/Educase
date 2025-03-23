@@ -57,18 +57,18 @@ const SignUp = () => {
   };
 
   return (
-    <div className="min-h-screen font-ru flex items-center justify-center bg-[#F7F8F9]">
+    <div className="min-h-screen  flex items-center justify-center bg-[#F7F8F9]">
       <div className="w-[450px] min-h-screen bg-[#F7F8F9] p-6 flex flex-col shadow-lg rounded-xl">
 
         <BackButton />
 
         <div className='text-[#1D2226]'>
           <h2 className="text-2xl font-bold mb-1">Create your</h2>
-          <h2 className="text-2xl font-bold  mb-6">PopX account</h2>
+          <h2 className="text-2xl font-bold  mb-5">PopX account</h2>
         </div>
 
         <InputField
-          className="mb-3"
+          className="mb-2"
           id="fullName"
           name="fullName"
           label="Full Name"
@@ -79,7 +79,7 @@ const SignUp = () => {
         {errors.fullName && <p className="text-red-500 text-sm mb-2">{errors.fullName}</p>}
 
         <InputField
-          className="mb-3"
+          className="mb-2"
           id="phone"
           name="phone"
           label="Phone number"
@@ -90,7 +90,7 @@ const SignUp = () => {
         {errors.phone && <p className="text-red-500 text-sm mb-2">{errors.phone}</p>}
 
         <InputField
-          className="mb-3"
+          className="mb-2"
           id="email"
           name="email"
           label="Email address"
@@ -101,7 +101,7 @@ const SignUp = () => {
         {errors.email && <p className="text-red-500 text-sm mb-2">{errors.email}</p>}
 
         <InputField
-          className="mb-3"
+          className="mb-2"
           id="password"
           name="password"
           label="Password"
@@ -113,7 +113,7 @@ const SignUp = () => {
         {errors.password && <p className="text-red-500 text-sm mb-2">{errors.password}</p>}
 
         <InputField
-          className="mb-3"
+          className="mb-2"
           id="company"
           name="company"
           label="Company name"
