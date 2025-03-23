@@ -64,7 +64,7 @@ const SignUp = () => {
 
         <div className='text-[#1D2226]'>
           <h2 className="text-2xl font-bold mb-1">Create your</h2>
-          <h2 className="text-2xl font-bold  mb-5">PopX account</h2>
+          <h2 className="text-2xl font-bold  mb-4">PopX account</h2>
         </div>
 
         <InputField

@@ -23,7 +23,7 @@ const InputField = forwardRef(({
         onChange={onChange}
         placeholder={placeholder}
         aria-invalid={!!error}
-        className={`shadow appearance-none bg-[#F7F8F9] border-[1px] border-[#CBCBCB] rounded w-full py-3 px-3 text-[#919191] leading-tight focus:outline-none focus:shadow-outline ${
+        className={`shadow appearance-none bg-[#F7F8F9] border-[1px] border-[#CBCBCB] rounded w-full py-2 px-3 text-[#919191] leading-tight focus:outline-none focus:shadow-outline ${
           error ? 'border-red-500' : 'border-gray-300'
         } ${className}`}
         {...rest}
