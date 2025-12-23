@@ -66,7 +66,9 @@ Educase/
 
 
 
----
+```  
+
+
 
 ## ✨ Features
 
@@ -76,7 +78,7 @@ Educase/
 - ♻️ Reusable and modular components  
 - 🧼 Clean, well-formatted, and readable code  
 
----
+
 
 ## 🛠️ Installation & Setup
 
