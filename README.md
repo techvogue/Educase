@@ -109,6 +109,8 @@ Build command:
 bash
 Copy code
 npm run build
+
+---
 📌 Notes
 UI spacing, typography, and alignment strictly follow the design
 
@@ -128,18 +130,6 @@ Frontend / Full-Stack Developer
 yaml
 Copy code
 
----
 
-### 🎯 You’re all set for submission
-This README ticks **every requirement**:
-- ✅ GitHub link  
-- ✅ Hosted link  
-- ✅ Pixel-perfect mention  
-- ✅ Clean code mention  
 
-If you want, I can also:
-- Write a **2–3 line submission answer**
-- Review your project like an **interviewer**
-- Suggest **1–2 quick UI improvements** that impress
 
-Just tell me 👍
