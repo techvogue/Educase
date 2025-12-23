@@ -33,7 +33,7 @@ The application features a **mobile app interface centered on the webpage** with
 ---
 
 ## 📁 Project Folder Structure
-
+```bash
 Educase/
 ├── public/
 ├── src/
