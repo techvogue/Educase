@@ -46,7 +46,7 @@ const LoginForm = () => {
     <div className="h-screen bg-[#F7F8F9] flex justify-center items-start">
       <div className="h-[100vh] w-full max-w-[450px] bg-[#F7F8F9] shadow-md rounded-md p-8">
         
-        <BackButton />
+      
 
         <h2 className="text-[28px] font-bold text-[#1D2226] mb-1 leading-tight text-balance">
           Signin to your <br /> PopX account

@@ -9,14 +9,14 @@ const Profile = () => {
       <div className="h-full w-full max-w-md shadow-md rounded-md flex flex-col bg-white overflow-hidden">
 
         {/* Top Section */}
-        <div className="bg-white text-[#1D2226] p-4 pt-5">
+        <div className="bg-white text-[#4a4f54] p-4  pt-5 ">
           {/* ⬅️ Back Button */}
-          <BackButton />
-          <h2 className="text-[18px] font-semibold mb-0">Account Settings</h2>
+          
+          <h3 className="text-[18px]   mb-0">Account Settings</h3>
         </div>
 
         {/* Bottom Section */}
-        <div className="bg-[#F7F8F9] flex-1 p-4 overflow-y-auto">
+        <div className="bg-gray-100 flex-1 p-4 overflow-y-auto">
           <div className="flex items-center gap-4 mb-4">
             <div className="relative w-14 h-14">
               <img

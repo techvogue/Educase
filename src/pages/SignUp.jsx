@@ -60,7 +60,7 @@ const SignUp = () => {
     <div className="min-h-screen  flex items-center justify-center bg-[#F7F8F9]">
       <div className="w-[450px] min-h-screen bg-[#F7F8F9] p-6 flex flex-col shadow-lg rounded-xl">
 
-        <BackButton />
+        
 
         <div className='text-[#1D2226]'>
           <h2 className="text-2xl font-bold mb-1">Create your</h2>
@@ -75,6 +75,7 @@ const SignUp = () => {
           placeholder="Marry Doe"
           value={formData.fullName}
           onChange={handleChange}
+          required
         />
         {errors.fullName && <p className="text-red-500 text-sm mb-2">{errors.fullName}</p>}
 
@@ -86,6 +87,7 @@ const SignUp = () => {
           placeholder="1234567890"
           value={formData.phone}
           onChange={handleChange}
+          required
         />
         {errors.phone && <p className="text-red-500 text-sm mb-2">{errors.phone}</p>}
 
@@ -97,6 +99,7 @@ const SignUp = () => {
           placeholder="marry@example.com"
           value={formData.email}
           onChange={handleChange}
+          required
         />
         {errors.email && <p className="text-red-500 text-sm mb-2">{errors.email}</p>}
 
@@ -109,6 +112,7 @@ const SignUp = () => {
           type="password"
           value={formData.password}
           onChange={handleChange}
+          required
         />
         {errors.password && <p className="text-red-500 text-sm mb-2">{errors.password}</p>}
 
@@ -120,6 +124,7 @@ const SignUp = () => {
           placeholder="Company Inc."
           value={formData.company}
           onChange={handleChange}
+          required
         />
         {errors.company && <p className="text-red-500 text-sm mb-2">{errors.company}</p>}
 
@@ -154,7 +159,7 @@ const SignUp = () => {
           {errors.isAgency && <p className="text-red-500 text-sm mt-2">{errors.isAgency}</p>}
         </div>
 
-        <div className="mt-12 sm:mt-auto">
+        <div className="mt-16 sm:mt-auto">
           <Button
             text="Create Account"
             buttonColor="#6C25FF"
