@@ -109,7 +109,7 @@ Build command:
 bash
 Copy code
 npm run build
-
+``` 
 ---
 📌 Notes
 UI spacing, typography, and alignment strictly follow the design
@@ -126,9 +126,6 @@ B.Tech – ECE (VLSI & Embedded Systems)
 Frontend / Full-Stack Developer
 
 ⭐ If you like this project, feel free to star the repository!
-
-yaml
-Copy code
 
 
 
