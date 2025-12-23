@@ -62,6 +62,8 @@ Educase/
 ├── package.json
 ├── vite.config.js
 └── README.md
+> The project follows a modular, component-based structure for maintainability and scalability.
+
 
 
 ---
