@@ -1,7 +1,7 @@
 import React from 'react';
 import camIcon from '../assets/cam.svg';
 import profileImage from '../assets/profile.png';
-import BackButton from '../component/BackButton.jsx'; // ⬅️ Import BackButton
+
 
 const Profile = () => {
   return (
@@ -10,7 +10,7 @@ const Profile = () => {
 
         {/* Top Section */}
         <div className="bg-white text-[#4a4f54] p-4  pt-5 ">
-          {/* ⬅️ Back Button */}
+          
           
           <h3 className="text-[18px]   mb-0">Account Settings</h3>
         </div>
