@@ -154,7 +154,7 @@ const SignUp = () => {
           {errors.isAgency && <p className="text-red-500 text-sm mt-2">{errors.isAgency}</p>}
         </div>
 
-        <div className="mt-auto">
+        <div className=" mb-12 sm:mt-auto">
           <Button
             text="Create Account"
             buttonColor="#6C25FF"
