@@ -27,37 +27,42 @@ The application features a **mobile app interface centered on the webpage** with
 - **React JS**
 - **Vite**
 - **React Router DOM**
-- **CSS**
+- **Tailwindcss**
 - **Vercel** for deployment
 
 ---
 
 ## 📁 Project Folder Structure
 
-src/
-│── assets/
-│ ├── cam.svg
-│ ├── profile.png
-│ ├── profile2.png
+Educase/
+├── public/
+├── src/
+│   ├── assets/                # Images & icons
+│   │   ├── cam.svg
+│   │   ├── profile.png
+│   │   └── profile2.png
+│   │
+│   ├── component/             # Reusable UI components
+│   │   ├── BackButton.jsx
+│   │   ├── Button.jsx
+│   │   └── InputField.jsx
+│   │
+│   ├── pages/                 # Application pages
+│   │   ├── Home.jsx
+│   │   ├── LoginForm.jsx
+│   │   ├── SignUp.jsx
+│   │   └── Profile.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
 │
-│── component/
-│ ├── BackButton.jsx
-│ ├── Button.jsx
-│ ├── InputField.jsx
-│
-│── pages/
-│ ├── Home.jsx
-│ ├── LoginForm.jsx
-│ ├── Profile.jsx
-│ ├── SignUp.jsx
-│
-│── App.jsx
-│── App.css
-│── main.jsx
-│── index.css
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
 
-yaml
-Copy code
 
 ---
 
