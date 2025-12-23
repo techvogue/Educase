@@ -123,7 +123,7 @@ const SignUp = () => {
         />
         {errors.company && <p className="text-red-500 text-sm mb-2">{errors.company}</p>}
 
-        <div className="mt-4">
+        <div className="mt-4 mx-1">
           <label className="block text-sm font-semibold text-[#6C25FF] mb-2">
             Are you an Agency? <span className="text-red-500">*</span>
           </label>
